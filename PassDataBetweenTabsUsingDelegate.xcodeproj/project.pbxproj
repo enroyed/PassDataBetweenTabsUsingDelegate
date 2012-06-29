@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE26E1B1592FC1B002A2E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE26E1A1592FC1B002A2E45 /* UIKit.framework */; };
+		AFE26E1D1592FC1B002A2E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE26E1C1592FC1B002A2E45 /* Foundation.framework */; };
+		AFE26E1F1592FC1B002A2E45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE26E1E1592FC1B002A2E45 /* CoreGraphics.framework */; };
+		AFE26E251592FC1B002A2E45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE26E231592FC1B002A2E45 /* InfoPlist.strings */; };
+		AFE26E271592FC1B002A2E45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E261592FC1B002A2E45 /* main.m */; };
+		AFE26E2B1592FC1C002A2E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E2A1592FC1C002A2E45 /* AppDelegate.m */; };
+		AFE26E2E1592FC1C002A2E45 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE26E2C1592FC1C002A2E45 /* MainStoryboard.storyboard */; };
+		AFE26E311592FC1C002A2E45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E301592FC1C002A2E45 /* ViewController.m */; };
+		AFE26E391592FC55002A2E45 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E381592FC55002A2E45 /* MyTabBarViewController.m */; };
+		AFE26E3C1592FC6C002A2E45 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E3B1592FC6C002A2E45 /* FirstViewController.m */; };
+		AFE26E3F1592FC78002A2E45 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE26E3E1592FC78002A2E45 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFE26E161592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataBetweenTabsUsingDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE26E1A1592FC1B002A2E45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFE26E1C1592FC1B002A2E45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFE26E1E1592FC1B002A2E45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFE26E221592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassDataBetweenTabsUsingDelegate-Info.plist"; sourceTree = "<group>"; };
+		AFE26E241592FC1B002A2E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE26E261592FC1B002A2E45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFE26E281592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassDataBetweenTabsUsingDelegate-Prefix.pch"; sourceTree = "<group>"; };
+		AFE26E291592FC1B002A2E45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFE26E2A1592FC1C002A2E45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFE26E2D1592FC1C002A2E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AFE26E2F1592FC1C002A2E45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFE26E301592FC1C002A2E45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFE26E371592FC55002A2E45 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		AFE26E381592FC55002A2E45 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		AFE26E3A1592FC6C002A2E45 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AFE26E3B1592FC6C002A2E45 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AFE26E3D1592FC78002A2E45 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AFE26E3E1592FC78002A2E45 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE26E131592FC1B002A2E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE26E1B1592FC1B002A2E45 /* UIKit.framework in Frameworks */,
+				AFE26E1D1592FC1B002A2E45 /* Foundation.framework in Frameworks */,
+				AFE26E1F1592FC1B002A2E45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE26E0B1592FC1B002A2E45 = {
+			isa = PBXGroup;
+			children = (
+				AFE26E201592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate */,
+				AFE26E191592FC1B002A2E45 /* Frameworks */,
+				AFE26E171592FC1B002A2E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE26E171592FC1B002A2E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE26E161592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE26E191592FC1B002A2E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE26E1A1592FC1B002A2E45 /* UIKit.framework */,
+				AFE26E1C1592FC1B002A2E45 /* Foundation.framework */,
+				AFE26E1E1592FC1B002A2E45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE26E201592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AFE26E291592FC1B002A2E45 /* AppDelegate.h */,
+				AFE26E2A1592FC1C002A2E45 /* AppDelegate.m */,
+				AFE26E2C1592FC1C002A2E45 /* MainStoryboard.storyboard */,
+				AFE26E371592FC55002A2E45 /* MyTabBarViewController.h */,
+				AFE26E381592FC55002A2E45 /* MyTabBarViewController.m */,
+				AFE26E3A1592FC6C002A2E45 /* FirstViewController.h */,
+				AFE26E3B1592FC6C002A2E45 /* FirstViewController.m */,
+				AFE26E3D1592FC78002A2E45 /* SecondViewController.h */,
+				AFE26E3E1592FC78002A2E45 /* SecondViewController.m */,
+				AFE26E2F1592FC1C002A2E45 /* ViewController.h */,
+				AFE26E301592FC1C002A2E45 /* ViewController.m */,
+				AFE26E211592FC1B002A2E45 /* Supporting Files */,
+			);
+			path = PassDataBetweenTabsUsingDelegate;
+			sourceTree = "<group>";
+		};
+		AFE26E211592FC1B002A2E45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE26E221592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate-Info.plist */,
+				AFE26E231592FC1B002A2E45 /* InfoPlist.strings */,
+				AFE26E261592FC1B002A2E45 /* main.m */,
+				AFE26E281592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE26E151592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE26E341592FC1C002A2E45 /* Build configuration list for PBXNativeTarget "PassDataBetweenTabsUsingDelegate" */;
+			buildPhases = (
+				AFE26E121592FC1B002A2E45 /* Sources */,
+				AFE26E131592FC1B002A2E45 /* Frameworks */,
+				AFE26E141592FC1B002A2E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassDataBetweenTabsUsingDelegate;
+			productName = PassDataBetweenTabsUsingDelegate;
+			productReference = AFE26E161592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE26E0D1592FC1B002A2E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AFE26E101592FC1B002A2E45 /* Build configuration list for PBXProject "PassDataBetweenTabsUsingDelegate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFE26E0B1592FC1B002A2E45;
+			productRefGroup = AFE26E171592FC1B002A2E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE26E151592FC1B002A2E45 /* PassDataBetweenTabsUsingDelegate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE26E141592FC1B002A2E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE26E251592FC1B002A2E45 /* InfoPlist.strings in Resources */,
+				AFE26E2E1592FC1C002A2E45 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE26E121592FC1B002A2E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE26E271592FC1B002A2E45 /* main.m in Sources */,
+				AFE26E2B1592FC1C002A2E45 /* AppDelegate.m in Sources */,
+				AFE26E311592FC1C002A2E45 /* ViewController.m in Sources */,
+				AFE26E391592FC55002A2E45 /* MyTabBarViewController.m in Sources */,
+				AFE26E3C1592FC6C002A2E45 /* FirstViewController.m in Sources */,
+				AFE26E3F1592FC78002A2E45 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFE26E231592FC1B002A2E45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE26E241592FC1B002A2E45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFE26E2C1592FC1C002A2E45 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE26E2D1592FC1C002A2E45 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE26E321592FC1C002A2E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFE26E331592FC1C002A2E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE26E351592FC1C002A2E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassDataBetweenTabsUsingDelegate/PassDataBetweenTabsUsingDelegate-Prefix.pch";
+				INFOPLIST_FILE = "PassDataBetweenTabsUsingDelegate/PassDataBetweenTabsUsingDelegate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFE26E361592FC1C002A2E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassDataBetweenTabsUsingDelegate/PassDataBetweenTabsUsingDelegate-Prefix.pch";
+				INFOPLIST_FILE = "PassDataBetweenTabsUsingDelegate/PassDataBetweenTabsUsingDelegate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE26E101592FC1B002A2E45 /* Build configuration list for PBXProject "PassDataBetweenTabsUsingDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE26E321592FC1C002A2E45 /* Debug */,
+				AFE26E331592FC1C002A2E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE26E341592FC1C002A2E45 /* Build configuration list for PBXNativeTarget "PassDataBetweenTabsUsingDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE26E351592FC1C002A2E45 /* Debug */,
+				AFE26E361592FC1C002A2E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE26E0D1592FC1B002A2E45 /* Project object */;
+}
